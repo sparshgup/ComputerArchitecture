@@ -34,4 +34,8 @@ HDL Implementation using SystemVerilog of [Conway's Game of Life](https://en.wik
 
 Utilizes a [Cmod A7 FPGA Reference](https://digilent.com/reference/programmable-logic/cmod-a7/reference-manual) FPGA to simulate it on an 8x8 LED Display matrix. 
 
-![IMG_5008](https://github.com/sparshgup/ComputerArchitecture/assets/19605629/8cafb751-4e53-4fb6-8c28-e7e01935a70a)
+![IMG_5009](https://github.com/sparshgup/ComputerArchitecture/assets/19605629/baaa6a0b-e89e-4bf0-a440-b306e0e4fb35)
+
+## FPGA USB-UART communication
+
+In progress

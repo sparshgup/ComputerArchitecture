@@ -12,7 +12,7 @@ input wire clk, ena, rst;
 input wire [N-1:0] d;
 output logic [N-1:0] q;
 
-always_ff @(posedge clk or posedge rst) begin : register
+always_ff @(posedge clk) begin : register
     if(rst) q <= 0;
     else if (ena) q <= d;
 end

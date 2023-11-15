@@ -1,7 +1,11 @@
 `timescale 1ns/1ps
 `default_nettype none
 
-/*
+/*always_ff @(posedge clk) begin : register
+    if(rst) q <= 0;
+    else if (ena) q <= d;
+end
+
 A synchronous register (batch of flip flops) with rst > ena.
 */
 

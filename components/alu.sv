@@ -31,7 +31,7 @@ mux2 #(.N(N)) srl_temp (.in0(temp_srl_out), .in1(0), .s(|b[N-1:5]), .out(srl_res
 mux2 #(.N(N)) sra_temp (.in0(temp_sra_out), .in1(0), .s(|b[N-1:5]), .out(sra_result));
 
 
-// Adder and Subtracter
+// Addition and Subtraction
 logic [N-1:0] b_add_sub;
 mux2 #(.N(N)) add_sub (.in0(b), .in1(~b), .s(control[2]), .out(b_add_sub));
 adder_n #(.N(N)) alu_add_sub (.a(a), .b(b_add_sub), .c_in(control[2]), .sum(adder_result));
@@ -86,6 +86,7 @@ mux16 #(.N(N)) alu_mux (
 
 // Overflow, Zero, and Equal flags
 always_comb begin
+  // Overflow logic for addition and subtraction
   overflow = (control[3]) & ~(control[2] ^ a[N-1] ^ b[N-1]) & (a[N-1] ^ adder_result[N-1]); 
 end
 comparator_eq #(.N(N)) alu_zero (.a(result), .b(32'b0), .out(zero));

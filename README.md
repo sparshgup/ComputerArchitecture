@@ -4,7 +4,7 @@ Sparsh Gupta
 
 This repository has SystemVerilog implementations of computer architecture components using primarily structural combinational and some behavioral logic.
 
-It also has an implementation for Conway's Game of Life and the RISC-V CPU (both in progress).
+(In progress) It also has implementations for RISC-V CPU, Conway's Game of Life, and FPGA USB-UART communication.
 
 ## List of components
 

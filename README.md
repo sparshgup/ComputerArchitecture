@@ -17,10 +17,10 @@ It also has an implementation for Conway's Game of Life and the RISC-V CPU (both
 - Decoders
 - Muxes
 - Shifters (SLL, SRL, SRA)
+- ALU (capable of performing operations AND, OR, XOR, Addition, Subtraction, SLL, SRL, SRA, SLT, SLTU, w/ overflow)
 - Register
-- ALU (capable of performing AND, OR, XOR, Addition, Subtraction, SLL, SRL, SRA, SLT, SLTU)
 - Pulse Generator
-- PWM
+- PWM (Pulse Width Modulator)
 - Edge Detector
 - Triangle Generator
 

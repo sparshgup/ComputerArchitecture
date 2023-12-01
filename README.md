@@ -26,7 +26,10 @@ This repository has SystemVerilog implementations of computer architecture compo
 
 ## RISC-V CPU
 
-In Progress
+This implementation of the RISC-V CPU is the rv32i (integer subset of RISC-V spec) system with a multicycle core.
+
+[TODO - add rv32i files]
+[TODO - add instruction set list]
 
 ## Conway's Game of Life
 
@@ -38,4 +41,6 @@ Utilizes a [Cmod A7 FPGA Reference](https://digilent.com/reference/programmable-
 
 ## FPGA USB-UART communication
 
-In progress
+The UART implementation also utilizes the [Cmod A7 FPGA Reference](https://digilent.com/reference/programmable-logic/cmod-a7/reference-manual) FPGA to simulate.
+
+[TODO - add UART files]

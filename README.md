@@ -26,10 +26,18 @@ This repository has SystemVerilog implementations of computer architecture compo
 
 ## RISC-V CPU
 
-This implementation of the RISC-V CPU is the rv32i (integer subset of RISC-V spec) system with a multicycle core.
+This implementation of the RISC-V CPU rv32i (integer subset of RISC-V spec) system with a multicycle core.
 
 [TODO - add rv32i files]
-[TODO - add instruction set list]
+
+The instructions compatible with this implementation:
+
+- **R-type**: add, sub, xor, or, and, sll, srl, sra, slt, sltu
+- **I-type**: addi, xori, ori, andi, slli, srli, srai, slti, sltiu
+- **Memory-Type**: lw, sw, lb, sb, lh, sh, lbu, shu
+- **B-type**: beq, bne, blt, bltu, bge, bgeu
+- **J-type**: jal, jalr
+- **U-type**: lui, auipc
 
 ## Conway's Game of Life
 

@@ -4,7 +4,7 @@ Sparsh Gupta
 
 This repository has SystemVerilog implementations of computer architecture components using primarily structural combinational and some behavioral logic.
 
-(In progress) It also has implementations for RISC-V CPU, Conway's Game of Life, and FPGA USB-UART communication.
+(In progress) It also has implementations for RISC-V CPU and FPGA USB-UART communication.
 
 ## List of components
 
@@ -39,17 +39,9 @@ The instructions compatible with this implementation:
 - **J-type**: jal, jalr
 - **U-type**: lui, auipc
 
-## Conway's Game of Life
-
-HDL Implementation using SystemVerilog of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
-
-It utilizes a [Cmod A7 FPGA Reference](https://digilent.com/reference/programmable-logic/cmod-a7/reference-manual) FPGA to simulate it on an 8x8 LED display matrix. 
-
-![IMG_5009](https://github.com/sparshgup/ComputerArchitecture/assets/19605629/baaa6a0b-e89e-4bf0-a440-b306e0e4fb35)
-
 ## FPGA USB-UART communication
 
-The UART implementation also utilizes the [Cmod A7 FPGA Reference](https://digilent.com/reference/programmable-logic/cmod-a7/reference-manual) FPGA to simulate.
+The UART implementation utilizes the [Cmod A7 FPGA Reference](https://digilent.com/reference/programmable-logic/cmod-a7/reference-manual) FPGA to simulate.
 
 The universal asynchronous receiver/transmitter (UART) driver consists of the FSM logic for transmitting and receiving data. 
 

@@ -4,7 +4,7 @@ Sparsh Gupta
 
 This repository has SystemVerilog implementations of computer architecture components using primarily structural combinational and some behavioral logic.
 
-(In progress) It also has implementations for RISC-V CPU and FPGA USB-UART communication.
+It also has implementations for RISC-V CPU and FPGA USB-UART communication.
 
 ## List of components
 
@@ -28,7 +28,7 @@ This repository has SystemVerilog implementations of computer architecture compo
 
 This implementation of the RISC-V CPU rv32i (integer subset of RISC-V spec) system with a multicycle core.
 
-[TODO - add rv32i files]
+Learn more about it on the [rv32i - README]([https://github.com/sparshgup/ComputerArchitecture/](https://github.com/sparshgup/ComputerArchitecture/blob/main/rv32i/README.md)) in this repo.
 
 The instructions compatible with this implementation:
 

@@ -1,0 +1,156 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Dec 19 01:12:13 2023
+[*]
+[dumpfile] "/home/sparshg/rv32i/core/rv32_simulator.fst"
+[dumpfile_mtime] "Tue Dec 19 01:05:35 2023"
+[dumpfile_size] 49077
+[savefile] "/home/sparshg/rv32i/core/tests/rv32.gtkw"
+[timestart] 169410
+[size] 1717 929
+[pos] 595 27
+*-12.935323 177060 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] rv32_simulator.
+[treeopen] rv32_simulator.CORE.
+[sst_width] 297
+[signals_width] 330
+[sst_expanded] 1
+[sst_vpaned_height] 346
+@28
+rv32_simulator.CORE.clk
+rv32_simulator.CORE.ena
+rv32_simulator.CORE.rst
+@200
+-PC and Current Instruction
+@c02024
+^1 /home/sparshg/rv32i/filter_files/rv32_states.txt
+rv32_simulator.CORE.state[3:0]
+@2028
+^1 /home/sparshg/rv32i/filter_files/rv32_states.txt
+(0)rv32_simulator.CORE.state[3:0]
+^1 /home/sparshg/rv32i/filter_files/rv32_states.txt
+(1)rv32_simulator.CORE.state[3:0]
+^1 /home/sparshg/rv32i/filter_files/rv32_states.txt
+(2)rv32_simulator.CORE.state[3:0]
+^1 /home/sparshg/rv32i/filter_files/rv32_states.txt
+(3)rv32_simulator.CORE.state[3:0]
+@1401200
+-group_end
+@28
+rv32_simulator.CORE.PC_ena
+@c00022
+rv32_simulator.CORE.PC[31:0]
+@28
+(0)rv32_simulator.CORE.PC[31:0]
+(1)rv32_simulator.CORE.PC[31:0]
+(2)rv32_simulator.CORE.PC[31:0]
+(3)rv32_simulator.CORE.PC[31:0]
+(4)rv32_simulator.CORE.PC[31:0]
+(5)rv32_simulator.CORE.PC[31:0]
+(6)rv32_simulator.CORE.PC[31:0]
+(7)rv32_simulator.CORE.PC[31:0]
+(8)rv32_simulator.CORE.PC[31:0]
+(9)rv32_simulator.CORE.PC[31:0]
+(10)rv32_simulator.CORE.PC[31:0]
+(11)rv32_simulator.CORE.PC[31:0]
+(12)rv32_simulator.CORE.PC[31:0]
+(13)rv32_simulator.CORE.PC[31:0]
+(14)rv32_simulator.CORE.PC[31:0]
+(15)rv32_simulator.CORE.PC[31:0]
+(16)rv32_simulator.CORE.PC[31:0]
+(17)rv32_simulator.CORE.PC[31:0]
+(18)rv32_simulator.CORE.PC[31:0]
+(19)rv32_simulator.CORE.PC[31:0]
+(20)rv32_simulator.CORE.PC[31:0]
+(21)rv32_simulator.CORE.PC[31:0]
+(22)rv32_simulator.CORE.PC[31:0]
+(23)rv32_simulator.CORE.PC[31:0]
+(24)rv32_simulator.CORE.PC[31:0]
+(25)rv32_simulator.CORE.PC[31:0]
+(26)rv32_simulator.CORE.PC[31:0]
+(27)rv32_simulator.CORE.PC[31:0]
+(28)rv32_simulator.CORE.PC[31:0]
+(29)rv32_simulator.CORE.PC[31:0]
+(30)rv32_simulator.CORE.PC[31:0]
+(31)rv32_simulator.CORE.PC[31:0]
+@1401200
+-group_end
+@28
+rv32_simulator.CORE.IR_write
+@22
+rv32_simulator.CORE.IR[31:0]
+@200
+-Instruction Type
+@28
+rv32_simulator.CORE.btype
+rv32_simulator.CORE.itype
+rv32_simulator.CORE.jtype
+rv32_simulator.CORE.ltype
+rv32_simulator.CORE.rtype
+rv32_simulator.CORE.stype
+rv32_simulator.CORE.utype
+@200
+-Memory Interface
+@28
+rv32_simulator.CORE.mem_access[1:0]
+@22
+rv32_simulator.CORE.mem_addr[31:0]
+@28
+rv32_simulator.CORE.mem_data_ena
+@22
+rv32_simulator.CORE.mem_data[31:0]
+rv32_simulator.CORE.mem_rd_data[31:0]
+rv32_simulator.CORE.mem_wr_data[31:0]
+@28
+rv32_simulator.CORE.mem_wr_ena
+@200
+-ALU Control Signals
+@28
+rv32_simulator.CORE.ALU_ena
+@100002028
+^2 /home/sparshg/rv32i/filter_files/alu_control.txt
+rv32_simulator.CORE.alu_control[3:0]
+@c02028
+^3 /home/sparshg/rv32i/filter_files/alu_src_a.txt
+rv32_simulator.CORE.alu_src_a[2:0]
+@2028
+^3 /home/sparshg/rv32i/filter_files/alu_src_a.txt
+(0)rv32_simulator.CORE.alu_src_a[2:0]
+^3 /home/sparshg/rv32i/filter_files/alu_src_a.txt
+(1)rv32_simulator.CORE.alu_src_a[2:0]
+^3 /home/sparshg/rv32i/filter_files/alu_src_a.txt
+(2)rv32_simulator.CORE.alu_src_a[2:0]
+@1401200
+-group_end
+@c02028
+^4 /home/sparshg/rv32i/filter_files/alu_src_b.txt
+rv32_simulator.CORE.alu_src_b[2:0]
+@2028
+^4 /home/sparshg/rv32i/filter_files/alu_src_b.txt
+(0)rv32_simulator.CORE.alu_src_b[2:0]
+^4 /home/sparshg/rv32i/filter_files/alu_src_b.txt
+(1)rv32_simulator.CORE.alu_src_b[2:0]
+^4 /home/sparshg/rv32i/filter_files/alu_src_b.txt
+(2)rv32_simulator.CORE.alu_src_b[2:0]
+@1401200
+-group_end
+@22
+rv32_simulator.CORE.alu_result[31:0]
+@200
+-Result Signals
+@22
+rv32_simulator.CORE.result[31:0]
+@2028
+^5 /home/sparshg/rv32i/filter_files/result_src.txt
+rv32_simulator.CORE.result_src[1:0]
+@200
+-Register File
+@28
+rv32_simulator.CORE.reg_write
+@22
+rv32_simulator.CORE.rd[4:0]
+rv32_simulator.CORE.REGISTER_FILE.rd_data0[31:0]
+rv32_simulator.CORE.REGISTER_FILE.rd_data1[31:0]
+rv32_simulator.CORE.rfile_wr_data[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

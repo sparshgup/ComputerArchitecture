@@ -1,0 +1,7 @@
+00100093 // PC=0x0 line=1: addi x1, x0, 1    # x01 = 1
+01c00113 // PC=0x4 line=2: addi x2, x0, 28   # x02 = 28
+00002203 // PC=0x8 line=5: lw x4, 0(x0)      # Load word from address 0 into x4
+01001283 // PC=0xc line=8: lh x5, 16(x0)     # Load halfword from address 16 into x5
+00800303 // PC=0x10 line=11: lb x6, 8(x0)      # Load signed byte from address 8 into x6
+01405383 // PC=0x14 line=14: lhu x7, 20(x0)    # Load unsigned halfword from address 20 into x8
+00c04403 // PC=0x18 line=17: lbu x8, 12(x0)    # Load unsigned byte from address 12 into x7

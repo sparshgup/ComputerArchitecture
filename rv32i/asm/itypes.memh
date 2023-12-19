@@ -1,0 +1,10 @@
+01100093 // PC=0x0 line=1: addi x1, x0, 17
+ff000513 // PC=0x4 line=2: addi x10, zero, -16
+00409113 // PC=0x8 line=3: slli x2, x1, 4
+3e812193 // PC=0xc line=4: slti x3, x2, 1000
+3e813213 // PC=0x10 line=5: sltiu x4, x2, 1000
+1df14293 // PC=0x14 line=6: xori x5, x2, 479
+00455313 // PC=0x18 line=7: srli x6, x10, 4
+40455393 // PC=0x1c line=8: srai x7, x10, 4
+7fc16413 // PC=0x20 line=9: ori x8, x2, 2044
+06447493 // PC=0x24 line=10: andi x9, x8, 100

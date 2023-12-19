@@ -28,7 +28,7 @@ It also has implementations for RISC-V CPU and FPGA USB-UART communication.
 
 This implementation of the RISC-V CPU rv32i (integer subset of RISC-V spec) system with a multicycle core.
 
-Learn more about it on the [rv32i - README]([https://github.com/sparshgup/ComputerArchitecture/](https://github.com/sparshgup/ComputerArchitecture/blob/main/rv32i/README.md)) in this repo.
+Learn more about it on the [rv32i - README](https://github.com/sparshgup/ComputerArchitecture/blob/main/rv32i/README.md) in this repo.
 
 The instructions compatible with this implementation:
 
